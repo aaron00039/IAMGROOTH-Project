@@ -1,4 +1,4 @@
-# Android Google Sign-In Unity Plugin
+# Android Google Sign-In Unity
 
 ## Overview
 
