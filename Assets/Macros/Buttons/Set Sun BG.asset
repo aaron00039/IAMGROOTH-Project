@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Set Sun BG
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-138.0345,"y":-170.5306},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"material","parameterTypes":null,"targetType":"UnityEngine.Skybox","targetTypeName":"UnityEngine.Skybox","$version":"A"},"defaultValues":{"target":null,"input":null},"position":{"x":123.0,"y":-84.0},"guid":"944803d9-6a7a-4c32-8fa8-c21f638c865f","$version":"A","$type":"Bolt.SetMember","$id":"9"},{"type":"UnityEngine.Material","value":{"$content":0,"$type":"UnityEngine.Object"},"defaultValues":{},"position":{"x":-184.0,"y":32.0},"guid":"de837286-ac11-42ee-b47c-911af2a9ae00","$version":"A","$type":"Bolt.Literal","$id":"12"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-196.0,"y":-135.0},"guid":"eb60aa29-32ef-4f75-ad76-2e2e1e231eb1","$version":"A","$type":"Bolt.OnButtonClick","$id":"14"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"skybox","$type":"System.String"}},"position":{"x":-380.0,"y":-59.0},"guid":"7c925f8c-4efd-4fae-916f-c976cc93181e","$version":"A","$type":"Bolt.GetVariable","$id":"16"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"9"},"destinationKey":"assign","guid":"1d67d517-00c9-4883-9728-d1c4117b7063","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"9"},"destinationKey":"input","guid":"c676ed5d-0cd6-4a33-adbc-4426598b4a0a","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"9"},"destinationKey":"target","guid":"cf1ba136-6c09-4285-8774-302dfecc7c68","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 2100000, guid: 66204a2dd537858438bc1c57b0c90836, type: 2}
